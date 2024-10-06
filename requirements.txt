@@ -1,0 +1,6 @@
+numpy
+colour-science
+matplotlib
+scikit-image
+pillow
+opencv-python-headless
