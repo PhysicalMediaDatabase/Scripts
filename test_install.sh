@@ -11,3 +11,4 @@ check_command() {
 check_command ffmpeg
 check_command python3
 check_command parallel
+check_command convert
