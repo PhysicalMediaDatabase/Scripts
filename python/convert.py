@@ -1,4 +1,5 @@
 import argparse
+import gc
 import os
 import time
 from gamut import wcg_visualize
@@ -45,6 +46,9 @@ start_time = time.time()
 
 # Loop through each image file
 for input_image_path in input_image_paths:
+
+    # Try and reduce memory usage
+    gc.collect()
 
     # Increment the counter and print progress
     image_process_count += 1
